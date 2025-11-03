@@ -32,14 +32,10 @@ const Footer: React.FC = () => {
           {/* Copyright */}
           <div className="border-t border-gray-200 pt-8 space-y-4">
             <p className="text-gray-600">
-              Final Year Project © 2024 All Rights Reserved
+              Third Year Project © 2025 All Rights Reserved
             </p>
             
-            {/* Source Code Button */}
-            <button className="inline-flex items-center border-2 border-blue-600 text-blue-600 px-6 py-2 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
-              <Github className="h-4 w-4 mr-2" />
-              Source Code
-            </button>
+          
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
           <div className="text-center">
             <h3 className="text-3xl font-bold mb-8">About Us</h3>
             <p className="text-lg text-slate-200 mb-8">
-              This Project is done by Final Year Students of Computer Science and Engineering at G Pulla Reddy Engineering College
+              This Project is done by Third Year Students of Information Technology of PSIT(College)
             </p>
 
             {/* Team Members */}
@@ -27,29 +27,36 @@ const AboutSection: React.FC = () => {
                 <div className="bg-white bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Users className="h-8 w-8" />
                 </div>
-                <h4 className="text-xl font-semibold">K Asrith</h4>
-                <p className="text-slate-300">Computer Science & Engineering</p>
+                <h4 className="text-xl font-semibent">Ashish Chaurasiya</h4>
+                <p className="text-slate-300">Information Technology</p>
               </div>
               <div className="text-center">
                 <div className="bg-white bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Users className="h-8 w-8" />
                 </div>
-                <h4 className="text-xl font-semibold">B Hemanth</h4>
-                <p className="text-slate-300">Computer Science & Engineering</p>
+                <h4 className="text-xl font-semibold">Kushagra</h4>
+                <p className="text-slate-300">Information Technology</p>
               </div>
               <div className="text-center">
                 <div className="bg-white bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Users className="h-8 w-8" />
                 </div>
-                <h4 className="text-xl font-semibent">B Lingesh</h4>
-                <p className="text-slate-300">Computer Science & Engineering</p>
+                <h4 className="text-xl font-semibold">Arpit</h4>
+                <p className="text-slate-300">Information Technology</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-white bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <Users className="h-8 w-8" />
+                </div>
+                <h4 className="text-xl font-semibent">Ayush</h4>
+                <p className="text-slate-300">Information Technology</p>
               </div>
             </div>
 
             {/* Guided By */}
             <div className="border-t border-slate-600 pt-8">
               <h4 className="text-lg font-semibold text-slate-300 mb-2">Guided By</h4>
-              <h3 className="text-2xl font-bold">Sri M Anand</h3>
+              <h3 className="text-2xl font-bold">...</h3>
               <p className="text-slate-300">Project Supervisor</p>
             </div>
           </div>
@@ -80,18 +87,7 @@ const AboutSection: React.FC = () => {
           </div>
         </div>
 
-        {/* External Link */}
-        <div className="text-center">
-          <a 
-            href="https://phishingquiz.withgoogle.com/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            <ExternalLink className="h-5 w-5 mr-2" />
-            Take a Phishing Test by GOOGLE
-          </a>
-        </div>
+       
       </div>
     </section>
   );
